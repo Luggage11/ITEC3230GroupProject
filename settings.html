@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Settings - AvailPlanner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-navbar">
+      <div class="nav-brand-wrap">
+        <span class="brand-icon"><span></span><span></span></span>
+        <a class="nav-brand" href="dashboard.html">AvailPlanner</a>
+      </div>
+
+      <nav class="nav-main-links" aria-label="Primary">
+        <a class="nav-link" href="dashboard.html">Home</a>
+        <a class="nav-link" href="tasks.html">Tasks</a>
+        <a class="nav-link" href="courses.html">Courses</a>
+        <a class="nav-link" href="events.html">Events</a>
+        <a class="nav-link active" href="settings.html">Settings</a>
+      </nav>
+
+      <a class="nav-search-btn" href="search.html" aria-label="Open search">
+        <span class="search-icon"></span>
+      </a>
+      <a class="nav-link nav-action account-link" href="student-login.html">Account</a>
+      <a class="nav-link nav-action notifications-link" href="notifications.html">Notifications</a>
+    </header>
+
+    <main class="content-area">
+      
+<section>
+  <div class="section-tag">Notification preferences</div>
+
+  <div class="settings-box">
+    <div class="settings-inner">
+      <div class="row">
+        <span>Enable deadline alert</span>
+        <div class="toggle-group">
+          <button class="toggle" type="button">Yes</button>
+          <button class="toggle active-toggle" type="button">No</button>
+        </div>
+      </div>
+      <div class="row">
+        <span>Enable event reminders</span>
+        <div class="toggle-group">
+          <button class="toggle active-toggle" type="button">Yes</button>
+          <button class="toggle" type="button">No</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+
+  <div class="section-tag">Privacy &amp; Security</div>
+
+  <div class="settings-actions">
+    <button class="long-btn" type="button">Change Password</button>
+    <button class="long-btn" type="button">Manage Data</button>
+  </div>
+</section>
+
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

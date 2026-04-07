@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard - AvailPlanner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-navbar">
+      <div class="nav-brand-wrap">
+        <span class="brand-icon"><span></span><span></span></span>
+        <a class="nav-brand" href="dashboard.html">AvailPlanner</a>
+      </div>
+
+      <nav class="nav-main-links" aria-label="Primary">
+        <a class="nav-link active" href="dashboard.html">Home</a>
+        <a class="nav-link" href="tasks.html">Tasks</a>
+        <a class="nav-link" href="courses.html">Courses</a>
+        <a class="nav-link" href="events.html">Events</a>
+        <a class="nav-link" href="settings.html">Settings</a>
+      </nav>
+
+      <a class="nav-search-btn" href="search.html" aria-label="Open search">
+        <span class="search-icon"></span>
+      </a>
+      <a class="nav-link nav-action account-link" href="student-login.html">Account</a>
+      <a class="nav-link nav-action notifications-link" href="notifications.html">Notifications</a>
+    </header>
+
+    <main class="content-area">
+      
+<section class="dashboard-layout">
+  <div class="dashboard-left">
+    <div class="month-bar">
+      <span>March</span>
+      <div class="month-controls">
+        <button type="button">‹</button>
+        <button type="button">›</button>
+      </div>
+    </div>
+
+    <div class="calendar-wrap">
+      <div class="calendar-head">
+        <div>SUN</div><div>MON</div><div>TUE</div><div>WED</div><div>THU</div><div>FRI</div><div>SAT</div>
+      </div>
+
+      <div class="calendar-grid">
+        <div class="day"><span class="day-num">1</span></div>
+        <div class="day"><span class="day-num">2</span></div>
+        <div class="day"><span class="day-num">3</span></div>
+        <div class="day"><span class="day-num">4</span></div>
+        <div class="day"><span class="day-num">5</span></div>
+        <div class="day"><span class="day-num">6</span></div>
+        <div class="day"><span class="day-num">7</span></div>
+
+        <div class="day"><span class="day-num">8</span></div>
+        <div class="day"><span class="day-num">9</span></div>
+        <div class="day"><p>• EVENT</p><span class="day-num">10</span></div>
+        <div class="day"><p>• EVENT</p><span class="day-num">11</span></div>
+        <div class="day"><p>• TASK</p><span class="day-num">12</span></div>
+        <div class="day"><span class="day-num">13</span></div>
+        <div class="day"><span class="day-num">14</span></div>
+
+        <div class="day"><p>• TASK</p><p>• DEADLINE</p><span class="day-num">15</span></div>
+        <div class="day"><span class="day-num">16</span></div>
+        <div class="day"><span class="day-num">17</span></div>
+        <div class="day"><span class="day-num">18</span></div>
+        <div class="day"><span class="day-num">19</span></div>
+        <div class="day"><span class="day-num">20</span></div>
+        <div class="day"><span class="day-num">21</span></div>
+
+        <div class="day"><span class="day-num">22</span></div>
+        <div class="day"><span class="day-num">23</span></div>
+        <div class="day"><span class="day-num">24</span></div>
+        <div class="day"><span class="day-num">25</span></div>
+        <div class="day"><span class="day-num">26</span></div>
+        <div class="day"><span class="day-num">27</span></div>
+        <div class="day"><span class="day-num">28</span></div>
+
+        <div class="day"><span class="day-num">29</span></div>
+        <div class="day"><span class="day-num">30</span></div>
+        <div class="day"><span class="day-num">31</span></div>
+        <div class="day empty"></div>
+        <div class="day empty"></div>
+        <div class="day empty"></div>
+        <div class="day empty"></div>
+      </div>
+    </div>
+  </div>
+
+  <aside class="dashboard-right">
+    <div class="info-card">
+      <h2>Campus Events</h2>
+      <div class="info-inner">
+        <ul>
+          <li>Career Fair | Mar 10</li>
+          <li>Coding Club | Mar 11</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="info-card">
+      <h2>Tasks &amp; Deadlines</h2>
+      <div class="info-inner">
+        <ul>
+          <li>ENG101 Essay | Mar 15</li>
+          <li>Finish Lab Report | Mar 12</li>
+          <li>Study for Midterm | Mar 15</li>
+        </ul>
+      </div>
+    </div>
+  </aside>
+</section>
+
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

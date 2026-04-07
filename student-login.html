@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Login - AvailPlanner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-navbar">
+      <div class="nav-brand-wrap">
+        <span class="brand-icon"><span></span><span></span></span>
+        <a class="nav-brand" href="dashboard.html">AvailPlanner</a>
+      </div>
+
+      <nav class="nav-main-links" aria-label="Primary">
+        <a class="nav-link" href="dashboard.html">Home</a>
+        <a class="nav-link" href="tasks.html">Tasks</a>
+        <a class="nav-link" href="courses.html">Courses</a>
+        <a class="nav-link" href="events.html">Events</a>
+        <a class="nav-link" href="settings.html">Settings</a>
+      </nav>
+
+      <a class="nav-search-btn" href="search.html" aria-label="Open search">
+        <span class="search-icon"></span>
+      </a>
+      <a class="nav-link nav-action active account-link" href="student-login.html">Account</a>
+      <a class="nav-link nav-action notifications-link" href="notifications.html">Notifications</a>
+    </header>
+
+    <main class="content-area">
+      <section class="student-login-shell">
+        <div class="section-tag">Student Login</div>
+
+        <div class="student-login-card">
+          <div class="student-login-inner">
+            <div class="student-login-header">
+              <div class="student-badge">Student Portal Access</div>
+              <h2>Sign in to AvailPlanner</h2>
+              <p>Use your student email and password to access your dashboard, tasks, courses, events, and synced accounts.</p>
+            </div>
+
+            <form class="student-login-grid" id="student-login-form" action="account.html" method="get">
+              <div class="form-group">
+                <label for="student-email">Student Email Address</label>
+                <input class="form-input" id="student-email" name="student-email" type="email" placeholder="student@yorku.ca" required>
+              </div>
+
+              <div class="form-group">
+                <label for="student-password">Password</label>
+                <input class="form-input" id="student-password" name="student-password" type="password" placeholder="Enter your password" required>
+              </div>
+
+              <div class="student-login-actions">
+                <button class="soft-btn" type="submit">Login to Dashboard</button>
+                <button class="secondary-btn" id="view-account-btn" disabled>View Account</button>
+              </div>
+            </form>
+
+            <div class="student-login-note">
+              <strong>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

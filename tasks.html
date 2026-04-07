@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tasks - AvailPlanner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-navbar">
+      <div class="nav-brand-wrap">
+        <span class="brand-icon"><span></span><span></span></span>
+        <a class="nav-brand" href="dashboard.html">AvailPlanner</a>
+      </div>
+
+      <nav class="nav-main-links" aria-label="Primary">
+        <a class="nav-link" href="dashboard.html">Home</a>
+        <a class="nav-link active" href="tasks.html">Tasks</a>
+        <a class="nav-link" href="courses.html">Courses</a>
+        <a class="nav-link" href="events.html">Events</a>
+        <a class="nav-link" href="settings.html">Settings</a>
+      </nav>
+
+      <a class="nav-search-btn" href="search.html" aria-label="Open search">
+        <span class="search-icon"></span>
+      </a>
+      <a class="nav-link nav-action account-link" href="student-login.html">Account</a>
+      <a class="nav-link nav-action notifications-link" href="notifications.html">Notifications</a>
+    </header>
+
+    <main class="content-area">
+      
+<section>
+  <div class="toolbar">
+    <button class="soft-btn" type="button">+ Add Task</button>
+    <div class="toolbar-right">
+      <button class="soft-btn" type="button">Filter : Date ▼</button>
+      <button class="soft-btn" type="button">Edit | Delete</button>
+    </div>
+  </div>
+
+  <div class="table-card">
+    <table>
+      <thead>
+        <tr>
+          <th>Task Name</th>
+          <th>Due Date</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Finish Lab Report</td>
+          <td>March 12</td>
+          <td><span class="checkbox"></span></td>
+        </tr>
+        <tr>
+          <td>Study for Midterm</td>
+          <td>March 15</td>
+          <td><span class="checkbox"></span></td>
+        </tr>
+        <tr>
+          <td>Read Week 6 Notes</td>
+          <td>March 18</td>
+          <td><span class="checkbox checked">✓</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
